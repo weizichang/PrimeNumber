@@ -6,6 +6,7 @@ public class PrimeNumber {
 		String s = JOptionPane.showInputDialog(null, "請輸入一個數字，判斷是否為質數");
 		if (s == null){
 			return;}//對話窗點選取消時不跳出"這不是數字無法判斷"
+		
 		try {  
 			 int a = Integer.parseInt(s);
 			} catch (NumberFormatException e) {
